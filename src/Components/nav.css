@@ -1,0 +1,43 @@
+nav{
+    color: white;
+    position: fixed;
+    z-index: 5;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:1em;
+    
+}
+nav:hover{
+background-color: black;
+opacity:.8;
+}
+.logo{
+    padding:1em;
+    opacity: .8;
+}
+
+.deskNav {
+    display: flex;
+    margin: 0;
+    padding: 1em;
+}
+nav > ul > li {
+    padding: 1em;
+}
+
+nav > ul > li > a{
+    color: white;
+}
+nav > ul > li > a:hover{
+    color: rgb(0, 177, 0);
+}
+
+.navIcon {
+    padding: 0 0.3em;
+    color: white;
+}
+link{
+    color:green
+}
+
