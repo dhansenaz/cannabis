@@ -1,0 +1,22 @@
+.news-wrapper{
+    display:flex;
+    flex-direction: row;
+    padding-top:8em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+
+
+}
+.news-wrapper > div{
+    background:red;
+    height:200px;
+    width:300px;
+    box-sizing: border-box;
+    
+}
+.news-image{
+    height:185px;
+    width:300px;
+    background-size: cover;
+}
