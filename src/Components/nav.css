@@ -1,15 +1,16 @@
 nav{
     color: white;
     position: fixed;
-    z-index: 5;
     width:100%;
     display: flex;
     justify-content: space-between;
     margin-top:1em;
+    background: black;
+    z-index: 5;
     
 }
 nav:hover{
-background-color: black;
+background-color: rgb(37, 37, 37);
 opacity:.8;
 }
 .logo{
