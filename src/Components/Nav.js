@@ -11,7 +11,8 @@ const Nav = () => {
         <div className='logo'><img src={Logo} alt="logo" style={{ width: "50px" }} /></div>
           <ul className="deskNav">
             <li>
-              <Icon className="navIcon" type="laptop" />Home
+              <Icon className="navIcon" type="laptop" />
+              <Link to='/'>Home</Link>
             </li>
             <li>
               <Icon className="navIcon" type="team" />

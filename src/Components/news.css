@@ -3,6 +3,12 @@
     margin:0;
   
 }
+.section-a >h3{
+    text-align: left;
+    padding:5px;
+    color: white;
+    height:42px;
+}
 
 .section-a-wrapper{
     display: flex;
@@ -17,58 +23,39 @@
 }
 
 .section-a{
-    background: white;
+    display: flex;
+    flex-direction: column;
+    background: rgb(53, 53, 53);
     background-size: cover;
     color:black;
-    padding: 20px;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.5),0 7px 20px 0 rgba(0,0,0,0.17);
-    height:300px; 
-    max-width:30%;
-    text-align: center;
-    box-sizing: border-box;
+    /* height:200px;  */
+    max-width:20%;
     margin:10px;
 
 }
 
 .news-image{
-    max-height:50%; 
+    max-height:50%;
     max-width:100%;
-    background-size: contain;
 }
 
 .banner{
-
-    display:flex;
-    flex-direction: row;
-    background:black;
+    background-image: url('https://s3.amazonaws.com/files.cannimed.ca/2016/images/Cannabis-Perscription-Banner-Image.jpg');
     justify-content: center;
     align-items: center;
     width: 98%;
     height: 10em;
-    margin:0 auto;
-        
+    margin:0 auto; 
+    background-size: cover;
 
 }
-
-
-.banner-content1{
+.banner > h3{
     color:white;
+    font-family: 'lobster';
     font-size: 6em;
-    padding-top:40px;
+    text-align: left;
+    padding-left:20px;
 }
-.banner-content2{
-    color:rgb(0, 156, 26);
-    font-size: 6em;
-    padding-top:40px;
-    
-    
-    
-}
-.banner-content3{
-    color:white;
-    font-size: 6em;
-    padding-top:40px;
-    
-    
-    
-}
+
+

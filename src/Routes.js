@@ -5,6 +5,10 @@ import Contact from './Components/Contact'
 import Blog from './Components/Blog'
 import Home from './Components/Home'
 import News from './Components/News'
+import Trends from './Components/Trends'
+import Culture from './Components/Culture'
+
+
 
 
 
@@ -20,6 +24,10 @@ const Routes =
         <Route path='/contact' component={ Contact } />
         <Route path='/blog' component={ Blog } />
         <Route path='/news' component={ News } />
+        <Route path='/trends' component={ Trends } />
+        <Route path='/culture' component={ Culture } />
+        
+        
         
        
         

@@ -1,0 +1,151 @@
+.trends-wrapper {
+    display: grid;
+    grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #fff;
+        color: #444;
+        padding-top:7em;
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+
+    .image-slider {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        
+    }
+    .box-b-wrapper{
+        background-color: #444;
+        color: #fff;
+        padding: 20px;
+        font-size: 150%;
+        grid-column: 3 ;
+        grid-row: 1 / 3;
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .box-b-content{
+        font-size:.75em;
+        text-align:  left;
+        padding-top:2em;
+
+    }
+    .box-b-image{
+        background: url('https://images.pexels.com/photos/386025/pexels-photo-386025.jpeg?auto=compress&cs=tinysrgb&h=350');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:200px;
+    }
+    .box-c-wrapper{
+        background-color: #444;
+        color: #fff;
+        padding: 20px;
+        font-size: 150%;
+        grid-column: 1 ;
+        grid-row: 2 ;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height:320px;
+        
+    }
+    .box-c-content{
+        font-size:.75em;
+        text-align:  left;
+        padding-top:10px;
+
+    }
+    .box-c-image{
+        background: url('https://images.pexels.com/photos/821042/pexels-photo-821042.jpeg?auto=compress&cs=tinysrgb&h=350');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:200px;
+    }
+    .box-c-logo{
+        background: url('https://images.pexels.com/photos/344102/pexels-photo-344102.jpeg?auto=compress&cs=tinysrgb&h=350');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:100px;
+    }
+    
+
+    .box-d-wrapper {
+        background-color: #444;
+        color: #fff;
+        padding: 20px;
+        font-size: 150%;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .box-d-content{
+        font-size:1em;
+        text-align:  left;
+        padding-top:5px;
+
+    }
+.image-1{
+    padding-top:-5em;
+    object-fit: contain;
+    height:350px;
+    background: url('https://images.pexels.com/photos/416676/pexels-photo-416676.jpeg?auto=compress&cs=tinysrgb&h=350')
+}
+.image-2{
+    object-fit: contain;    
+    height:350px; 
+    background: url('https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&h=350')
+    
+}.image-3{
+    object-fit: contain;    
+    height:350px; 
+    background: url('https://images.pexels.com/photos/803220/pexels-photo-803220.jpeg?auto=compress&cs=tinysrgb&h=350')
+       
+}.image-4{
+    object-fit: contain;    
+    height:350px; 
+    background:url('https://images.pexels.com/photos/207896/pexels-photo-207896.jpeg?auto=compress&cs=tinysrgb&h=350') 
+}
+.trends-content{
+    background-color: rebeccapurple;
+    height:400px;
+}
+.image-1 > h3{
+    margin:0 auto;
+    font-family: "lobster";
+    font-size: 7em;
+    padding-top:1em;
+    color: white;
+    text-shadow: 2px 2px #252525;
+}
+.image-2 > h3{
+    margin:0 auto;
+    font-family: "lobster";
+    font-size: 7em;
+    padding-top:1em;
+    color: white;
+    text-shadow: 2px 2px #252525;
+    
+}
+.image-3 > h3{
+    margin:0 auto;
+    font-family: "lobster";
+    font-size: 7em;
+    padding-top:1em;
+    color: white;
+    text-shadow: 2px 2px #252525;
+    
+}
+.image-4 > h3{
+    margin:0 auto;
+    font-family: "lobster";
+    font-size: 7em;
+    padding-top:1em;
+    color: white;
+    text-shadow: 2px 2px #252525;
+    
+}

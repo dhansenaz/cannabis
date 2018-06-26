@@ -17,9 +17,9 @@ const Home = () => {
           <Link to='/news'><div className='box1'>
             <h1>News</h1>
           </div></Link>
-          <div className='box2'>
+          <Link to='/trends'><div className='box2'>
             <h1>Trends</h1>
-          </div>
+          </div></Link>
           <div className='box3'>
             <h1>Culture</h1>
           </div>
