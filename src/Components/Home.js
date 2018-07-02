@@ -20,9 +20,9 @@ const Home = () => {
           <Link to='/trends'><div className='box2'>
             <h1>Trends</h1>
           </div></Link>
-          <div className='box3'>
+          <Link to='/culture'><div className='box3'>
             <h1>Culture</h1>
-          </div>
+          </div></Link>
         </div>
       
       <Footer />

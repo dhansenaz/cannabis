@@ -1,0 +1,157 @@
+.culture-wrapper{
+    width:100%;
+    display:inline-block;
+    
+}
+.left{
+    background: #5572E3;
+    height:425px;
+    width:50%;
+    float: left;
+}
+.right{
+    background: rgb(129, 154, 252);
+    height:425px;
+    width:50%;
+    float: right;
+    
+}
+.culture-wrapper2{
+    position:relative;
+    width:100%;
+    display:inline-block;
+    padding-top:7em;
+    padding-bottom: 2em;
+    
+}
+.left2{
+    background: #5572E3;
+    height:425px;
+    width:50%;
+    float: left;
+}
+.right2{
+    background: rgb(129, 154, 252);
+    height:425px;
+    width:50%;
+    float: right;
+    
+}
+.culture-quote2{
+    width: 300px;
+    height: 280px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    margin-top:5em;
+    opacity: .2;
+}
+.culture-quote3{
+    width: 700px;
+    height: 320px;
+    position: absolute;
+    left: 50%;
+    margin-left: -350px;
+    margin-top:5em;
+    z-index: 3;
+}
+.culture-quote{
+    position: absolute;
+    padding-top: 3.5em;
+    font-size: 2.75em;
+    color: white;
+    padding-left:1em;
+    padding-right:1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.author{
+    font-size: .5em;
+    margin-top:-1em;;
+    color: rgb(68, 68, 68);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.culture-content-wrapper{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #444;
+    padding-top:3em;
+    padding-left:20px;
+    padding-right:20px;
+    width: 100%;
+    height:400px;
+    opacity: .8;
+    margin:0;
+    margin-top: -.5em;
+}
+.candy1{
+    background:url('http://twotentwice.com/wp-content/uploads/2015/01/EdibleGuide.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+    border: solid 1px grey;
+    filter: drop-shadow(3px 2px 2px #484848);
+        
+}
+.candy1 > p{
+    color: white;
+    margin:0 auto;
+    padding-top:1.2em;
+    font-size: 3.5em;
+    font-family: 'lobster';
+    filter: drop-shadow(3px 2px 2px #484848);
+    
+    
+}
+.candy2{
+    background:url('https://res.cloudinary.com/medical-jane/image/fetch/w_750,q_75,c_limit,f_jpg/https://uploads.medicaljane.com/wp-content/uploads/2013/02/edibles.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+    border: solid 1px grey;
+    filter: drop-shadow(3px 2px 2px #484848);
+    
+}
+.candy3{
+    background:url('http://marijuanagrowershq.com/wp-content/uploads/2015/10/being-safe-with-cannabis-edibles.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+    border: solid 1px grey;
+    filter: drop-shadow(3px 2px 2px #484848);
+    
+}
+.candy4{
+    background:url('http://mjm.simianllc.com/wp-content/uploads/2018/01/ceaseSquare.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+    border: solid 1px grey;
+    filter: drop-shadow(3px 2px 2px #484848);
+    
+}
+.candy5{
+    background:url('http://medicalcannabisoutreach.com/wp-content/uploads/2018/02/mcoutreach.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+    border: solid 1px grey;
+    filter: drop-shadow(3px 2px 2px #484848);
+    
+}
+.candy6{
+    background:url('http://marijuanas.org/wp-content/uploads/2016/11/UNITY.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+    border: solid 1px grey;
+    filter: drop-shadow(3px 2px 2px #484848);
+    
+}

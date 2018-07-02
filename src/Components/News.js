@@ -19,7 +19,7 @@ class News extends Component {
   getNews() {
     axios
       .get(
-        "https://newsapi.org/v2/everything?sortby=popularity&q='trump'&apiKey=f1fbedfe5cdf4a0486e885999e3f9c27"
+        "https://newsapi.org/v2/everything?sortby=popularity&q='cannabis'&apiKey=f1fbedfe5cdf4a0486e885999e3f9c27"
       )
       .then(response => {
         console.log("response-----------------", response.data.results);
