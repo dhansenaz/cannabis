@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "./news.css";
+import NewsAPI from '../newsapi'
 
-const NewsAPI = require("newsapi");
 const newsapi = new NewsAPI("f1fbedfe5cdf4a0486e885999e3f9c27");
 
 class News extends Component {
