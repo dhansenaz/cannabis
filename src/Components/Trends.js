@@ -7,7 +7,7 @@ const Trends = () => {
   return (
     <div className="trends-wrapper">
       <div className="image-slider">
-        <Carousel autoplay>
+        <Carousel autoplay >
           <div className="image-1">
             <h3>Live</h3>
           </div>
