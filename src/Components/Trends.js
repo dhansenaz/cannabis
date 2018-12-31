@@ -40,6 +40,8 @@ const Trends = () => {
       <div className="box-c-wrapper">
         <div className="box-c-image" />
         <div className="box-c-content">
+        <div className="box-b-image" />
+        
           <p>
             Whether you’re lounging on the beach or just kicking it in the
             backyard, you may want to consider adding cannabinoids into your sun
