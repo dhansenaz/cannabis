@@ -7,7 +7,7 @@ const Trends = () => {
   return (
     <div className="trends-wrapper">
       <div className="image-slider">
-        <Carousel autoplay >
+        <Carousel autoplay>
           <div className="image-1">
             <h3>Live</h3>
           </div>
@@ -33,15 +33,14 @@ const Trends = () => {
             Cannabis-based lotions, salves, oils, and even lip balms can keep
             your skin healthy no matter how high the outdoor temperatures get.{" "}
           </p>
-          <div className='box-c-logo' />
-          
+          <div className="box-c-logo" />
         </div>
       </div>
       <div className="box-c-wrapper">
         <div className="box-c-image" />
         <div className="box-c-content">
-        <div className="box-b-image" />
-        
+          <div className="box-b-image" />
+
           <p>
             Whether you’re lounging on the beach or just kicking it in the
             backyard, you may want to consider adding cannabinoids into your sun
@@ -64,7 +63,7 @@ const Trends = () => {
           allowfullscreen
         />
       </div>
-      <div >
+      <div>
         <Footer />
       </div>
     </div>
